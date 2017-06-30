@@ -8,6 +8,10 @@ html,html * {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
 
+header {
+	padding: 32px;
+}
+
 .style-logo {
 	margin-left: auto;
 	margin-right: auto;
@@ -25,4 +29,27 @@ html,html * {
 	display: block;
 	text-transform: uppercase;
 	padding:8px;
+}
+
+/*Tablet View*/
+@media (min-width: 768px){
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+}
+/*Desktop View*/
+@media (min-width: 1024px){
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
 }
